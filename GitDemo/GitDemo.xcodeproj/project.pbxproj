@@ -13,6 +13,7 @@
 		BC63EFD71CAE50A600CE8638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63EFD51CAE50A600CE8638 /* Main.storyboard */; };
 		BC63EFD91CAE50A600CE8638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC63EFD81CAE50A600CE8638 /* Assets.xcassets */; };
 		BC63EFDC1CAE50A600CE8638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63EFDA1CAE50A600CE8638 /* LaunchScreen.storyboard */; };
+		BC63EFE61CAE54E400CE8638 /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = BC63EFE51CAE54E300CE8638 /* PersonB.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC63EFD81CAE50A600CE8638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC63EFDB1CAE50A600CE8638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC63EFDD1CAE50A600CE8638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC63EFE41CAE54E300CE8638 /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
+		BC63EFE51CAE54E300CE8638 /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		BC63EFCB1CAE50A600CE8638 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC63EFE31CAE54C200CE8638 /* B */,
 				BC63EFCF1CAE50A600CE8638 /* AppDelegate.h */,
 				BC63EFD01CAE50A600CE8638 /* AppDelegate.m */,
 				BC63EFD21CAE50A600CE8638 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				BC63EFCD1CAE50A600CE8638 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC63EFE31CAE54C200CE8638 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				BC63EFE41CAE54E300CE8638 /* PersonB.h */,
+				BC63EFE51CAE54E300CE8638 /* PersonB.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC63EFD41CAE50A600CE8638 /* ViewController.m in Sources */,
+				BC63EFE61CAE54E400CE8638 /* PersonB.m in Sources */,
 				BC63EFD11CAE50A600CE8638 /* AppDelegate.m in Sources */,
 				BC63EFCE1CAE50A600CE8638 /* main.m in Sources */,
 			);
@@ -298,6 +312,7 @@
 				BC63EFE21CAE50A600CE8638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
